@@ -1,9 +1,12 @@
 {
-  "name": "antlr4",
-  "version": "4.6",
-  "description": "JavaScript runtime for ANTLR4",
+  "name": "@edfi/antlr4",
+  "version": "4.6.1",
+  "description": "ANTLR 4.6 JavaScript runtime, patched by Ed-Fi for MetaEd",
   "main": "src/antlr4/index.js",
-  "repository": "antlr/antlr4.git",
+  "publishConfig": {
+    "registry": "https://www.myget.org/F/ed-fi/npm/"
+  },
+  "repository": "Ed-Fi-Alliance-OSS/antlr4.git",
   "keywords": [
     "lexer",
     "parser",
