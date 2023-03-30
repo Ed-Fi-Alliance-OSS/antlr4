@@ -21,3 +21,4 @@ which apparently is a common solution on non-JavaScript ANTLR runtimes. However,
 had worked, it would require embedding JavaScript into the lexer grammar in order to fire an error message on
 such a rule. All roads were leading to complex JavaScript code embedding to make partial-keyword
 error reporting work, so upgrading to a new version of ANTLR was abandoned in favor of taking on 4.6 maintenance.
+in a fork at https://github.com/Ed-Fi-Alliance-OSS/antlr4
